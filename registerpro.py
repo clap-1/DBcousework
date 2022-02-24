@@ -3,7 +3,9 @@ import sys
 import psycopg2
 
 class regipro():
+    
     '''def adduser(id, name, phonenum, email, type):
+    #...
         # 连接数据库
         conn = psycopg2.connect(database='DBCoursework', user='postgres', \
                                 password='DXQ8181/', host='127.0.0.1', post=5432)
