@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>684</width>
+    <height>562</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>进出校管理系统</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="title">
+        <property name="styleSheet">
+         <string notr="true">font: 9pt &quot;新宋体&quot;;
+font: 24pt &quot;华光行草_CNKI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>进出校管理系统</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="id_text">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="placeholderText">
+         <string>请输入学号</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="name_text">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="placeholderText">
+         <string>请输入姓名</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>材料学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>法学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>高等研究院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>五道口金融书院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>工程物理系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>公管学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>航空航天学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>化学工程系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>环境学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>机械工程系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>精密仪器系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>能源与动力系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>车辆与运载学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>工业工程系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>建筑学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>经济管理学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>数学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>物理系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>化学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>地球系统科学系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>天文系</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>马克思主义学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>美术学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>人文学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>求真书院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>社会科学学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>日新书院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>探微书院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>未央书院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>致理书院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>行健书院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>药学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>医学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>新雅书院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>新闻与传播学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>苏世民书院</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_2">
+        <item>
+         <property name="text">
+          <string>学生</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教师</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="register_2">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>注册</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="login">
+          <property name="styleSheet">
+           <string notr="true">border-color: rgb(172, 172, 172);
+background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>登录</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>684</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
